@@ -1,0 +1,89 @@
+body {
+	background-image: url(images/Field.jpg);
+	color:white ;
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	color:red;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:100;
+	font-size: 50px;
+
+}
+h2 {
+	color:rgb(24 55 125);
+	font-size:20px;
+	font-weight:medium;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	text-decoration:none;
+	color:red;
+	font-weight: bold;
+}
+
+a:hover{
+	color:white;
+}
+
+
+div{
+	margin: 20px;
+	background:#31598ecf;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 50%);
+	border-radius: 4px;
+	padding: 60px;
+}
+
+/* Custom Design with class */
+
+#tonton {
+	border-radius: 5px;
+}
+
+.container{
+	width: 960px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.btn-red{ 
+	background-color: red;
+	color:white;
+	padding: 10px 20px;
+	border-radius: 5px;
+ }
+
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li{
+display: inline;
+padding: 10px;
+
+}
+
+#intro p {
+	margin-bottom: 30px;
+
+}
